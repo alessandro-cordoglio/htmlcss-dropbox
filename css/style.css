@@ -27,6 +27,10 @@ body{
     cursor: pointer;
 }
 
+.font-mini{
+    font-size: 14px;
+}
+
 /* HEADER */
 header{
     /* background-color: cyan; */
@@ -74,16 +78,16 @@ header{
 }
 
 /* MAIN */
-main{
-    /* background-color: aliceblue; */
-}
+
+/* _____________________________SEZIONI________________________________________ */
+
 /* HERO */
 .hero-section{
     background-color: #B4D0E7;
-    height: 700px;
+    height: 680px;
 }
-.hero{
-    max-width: 1200px;
+.container{
+    max-width: 1140px;
     margin: auto;
     overflow: auto;
 }
@@ -111,14 +115,98 @@ main{
     width: 100%;
 }
 .arrow{
-    margin-top: 70px;
+    margin-top: 55px;
 }
-.arrow i{
+.arrow i{ 
     font-size: 55px;
 }
 /* //// */
-/* .prova{
-    background-color: coral;
-    width: 100%;
-    height: 50px;
-} */
+
+/* PLANS */
+
+/* plan section */
+.plans-title{
+    margin-top: 160px;
+    font-size: 30px;
+}
+.plans-checkbox{
+    display: flex;
+    margin-top:60px ;
+}
+.plans-checkbox div{
+    margin-left: 50px ;
+}
+.plans-checkbox div:first-child{
+    margin-left: 0px ;
+}
+/* colonne */
+.plans-tag{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.tag-layout{
+    width: calc(100%/(3/1) - (3-1)*15px);
+    border: 1px lightgrey solid;
+}
+.plans-tag h4{
+    font-weight: 400;
+}
+.plans-tag i{
+   font-size: 15px;
+}
+/* first */
+.user{
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 140px;
+    display: flex;
+    align-items: center;
+}
+.contenuto h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contenuto{
+    padding: 40px 25px;
+}
+.price{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.duration{
+    color: grey;
+}
+.first{
+    margin-bottom: 50px;
+}
+/* list options */
+.options i{
+    margin-right: 5px;
+}
+.list-option{
+    list-style: none;
+}
+.list-option li{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+/* button */
+.plans-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.plans-button button{
+    padding: 12px 58px;
+}
+.plans-button p{
+    text-align: left;
+    margin-top: 30px;
+}
+/* info */
+.plans-info h4{
+    font-weight: bold;
+}
+
