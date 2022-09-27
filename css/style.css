@@ -162,6 +162,10 @@ header{
     padding: 10px 140px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.user h4{
+    margin-left:10px ;
 }
 .contenuto h3{
     font-size: 25px;
@@ -191,7 +195,7 @@ header{
     display: flex;
     justify-content: left;
     align-items: flex-start;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 /* button */
 .plans-button{
@@ -204,9 +208,33 @@ header{
 .plans-button p{
     text-align: left;
     margin-top: 30px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom:30px ;
 }
 /* info */
 .plans-info h4{
     font-weight: bold;
+    margin-bottom: 30px;
 }
-
+.plans-info{
+    margin-top: 50px;
+}
+.check i{
+    color: blue;
+}
+.row{
+    width: 100%;
+    margin-top: 50px;
+}
+.row2{
+    display: flex;
+}
+.small{
+    width: calc(100% - 698px);
+    display: flex;
+    justify-content: right;
+}
+.small button{
+   padding:0 40px;
+   height: 40px;
+}
