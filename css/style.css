@@ -42,6 +42,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    z-index: 100;
     top:0;
     background-color: white;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
@@ -267,9 +268,6 @@ header{
 }
 .partner-info button{
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
-
 }
 .business-title{
     margin-top: 120px ;
@@ -294,7 +292,99 @@ header{
 }
 
 /* CLIENTS */
-.clients{
-    margin-top: 100px;
+.clients h2{
+    margin-top: 200px;
+}
+.clients-link{
+    margin-top: 50px;
+}
+
+/* COMPANY */
+.company{
+    display: flex;
+    margin-top: 150px;
+}
+.company-square{
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    padding: 50px;
+    background-color: #F5F5F5;
+    
+}
+.square-logo img{
+    width: 300px;
+}
+.square-info{
+    width: 100%;
+}
+
+
+/* COLORI IMG*/
+
+.filter-white{
+    filter: invert(100%) sepia(4%) saturate(7483%) hue-rotate(194deg) brightness(103%) contrast(102%);
+    width: 160px ;
+}
+.lightgreen{
+    background-color: #D1E9CD;
+    padding: 15px;
+}
+.green{
+    background-color: #A2D39B;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hard-red{
+    background-color: #61082B;
+}
+.blue-sea{
+    background-color: #0093CE;
+}
+.orange{
+    background-color: #FF1C1C;
+}
+.red{
+    background-color: #D5001F;
+}
+.cyan{
+    background-color: #B4D0E7;
+}
+.blue{
+    background-color: #0D2481;
+}
+.yellow{
+    background-color: #FFD830;
+}
+
+/* TRIAL */
+.trial{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+}
+.section-trial{
+    background-color: #B4D0E7;
+}
+.trial-title{
+    color: #61082B;
+    width: 60%;
+}
+.trial-button button{
+    background-color: white;
+    border: none;
+    padding: 15px 50px;
 }
 
