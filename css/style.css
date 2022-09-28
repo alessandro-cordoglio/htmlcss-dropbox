@@ -81,19 +81,23 @@ header{
     background-color: transparent;
 }
 
-/* MAIN */
-
+/*______________________________MAIN_______________________ */
+.container{
+    max-width: 1030px;
+    margin: auto;
+    overflow: auto;
+}
+.container-hero-footer{
+    max-width: 1180px;
+    margin: auto;
+    overflow: auto;
+}
 /* _____________________________SEZIONI________________________________________ */
 
 /* HERO */
 .hero-section{
     background-color: #B4D0E7;
     height: 680px;
-}
-.container{
-    max-width: 1030px;
-    margin: auto;
-    overflow: auto;
 }
 .hero-title{
     margin-top: 70px;
@@ -321,6 +325,7 @@ header{
     padding: 50px;
     background-color: #F5F5F5;
     display: block;
+    overflow-y: auto;
     
 }
 .square-logo img{
@@ -328,6 +333,20 @@ header{
 }
 .square-info{
     width: 100%;
+}
+hr{
+    border:none;
+    border-top:1px solid lightgray;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:20%;
+  }
+.square-logo{
+    margin-bottom: 40px;
+}
+.company-square p{
+    margin-top: 40px;
 }
 
 
@@ -391,5 +410,27 @@ header{
 }
 
 /* FAQ */
+.faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 40px 0px ;
+    padding-right: 40px;
+    font-weight: 700;
+}
+.faq-title{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.faq:last-child{
+    border-bottom: 1px solid black;
+}
+.faq-container{
+    margin-bottom: 150px;
+}
 
-
+/* _________________________FOOTER______________________ */
+footer{
+    background-color: black;
+}
